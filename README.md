@@ -2,13 +2,19 @@
 
 **Objective:** To create a comprehensive Dealership Management System that allows for the management of a dealership's vehicle stock. Users should be able to view, add, edit, and remove vehicles
 
+**Home Page**
+![Home Page](dms-screenshots/home.jpg)
 ## Features
 
 - **View Inventory** — Browse all vehicles in a clean, tabular layout
+![Entire application page](dms-screenshots/entire page.jpg)
 - **Add Vehicle** — Submit a form to add new vehicles to the dealership's stock
+![Add button](dms-screenshots/add and update.jpg)
 - **Edit Vehicle** — Update existing vehicle details
+
 - **Delete Vehicle** — Remove vehicles from inventory via a dedicated delete button
 - **Search/Filter** — Quickly find vehicles in the inventory table using the built-in search functionality
+![Search feature](dms-screenshots/search.jpg)
 - **Error Handling** — Graceful handling of common API errors (400, 404, 500) with clear user-facing messages
 
 
