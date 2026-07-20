@@ -2,6 +2,16 @@
 
 **Objective:** To create a comprehensive Dealership Management System that allows for the management of a dealership's vehicle stock. Users should be able to view, add, edit, and remove vehicles
 
+## Features
+
+- **View Inventory** — Browse all vehicles in a clean, tabular layout
+- **Add Vehicle** — Submit a form to add new vehicles to the dealership's stock
+- **Edit Vehicle** — Update existing vehicle details
+- **Delete Vehicle** — Remove vehicles from inventory via a dedicated delete button
+- **Search/Filter** — Quickly find vehicles in the inventory table using the built-in search functionality
+- **Error Handling** — Graceful handling of common API errors (400, 404, 500) with clear user-facing messages
+
+
 ### **Detailed Specifications**
 
 #### **1. GitHub Repository Setup:**
@@ -64,3 +74,35 @@
 
 ### **Expected Outcome**
 A fully functional Dealership Management System with backend API, responsive Angular front end, and detailed documentation.
+
+## Getting Started
+
+### Prerequisites
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [Node.js and npm](https://nodejs.org/)
+- Visual Studio (recommended) or any C#/Angular-compatible IDE
+
+### Running the project
+
+1. Clone the repository:
+```bash
+   git clone https://github.com/KatlegoSikhosana/vehicle-inventory-system.git
+```
+
+2. Open `VehicleInventorySystem.sln` in Visual Studio.
+
+3. Install frontend dependencies:
+```bash
+   cd VehicleInventorySystem/ClientApp
+   npm install
+```
+
+4. Run the solution (`F5` in Visual Studio, or `dotnet run` from the backend project folder). The Angular frontend will launch alongside the API.
+
+## My Contribution
+
+This project was completed with a classmate as part of a school internship module. My focus areas included [fill in — e.g. backend API development, database schema design, the search/filter feature, etc.].
+
+## Project Management
+
+Development was tracked using a GitHub Projects Kanban board, with feature work reviewed via Pull Requests before merging into the main branch.
